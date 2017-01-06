@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -120,7 +116,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: deepskyblue;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -169,11 +165,11 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: dotted; 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
-			width: max-content;
+			width: initial;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
@@ -663,7 +659,7 @@
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 69%;
 			}
 
 		@media screen and (max-width: 736px) {
